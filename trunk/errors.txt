@@ -1,0 +1,58 @@
+0x00 ERROR_OK No error.
+0x01 ERROR_INVALID_NO_OF_PARAMETERS The number of bytes in the request does not correspond to the protocol specification
+0x02 ERROR_DURATION_OUT_OF_RANGE The given duration value is not valid according to the specification.
+0x03 ERROR_INVALID_MODE The selected mode is not valid according to the specification
+0x04 ERROR_TIMEOUT A timeout occurred.
+0x05 ERROR_UNKNOWN_ERROR An unknown error occurred.
+0x06 ERROR_NAME_TOO_LONG The number of bytes in the name string is longer than the maximum specified value.
+0x07 ERROR_INVALID_DISCOVERABILITY_PARAMETER The given discoverability parameter does not contain a valid value according to the specification.
+0x08 ERROR_INVALID_CONNECTABILITY_PARAMETER The given connectability parameter does not contain a valid value according to the specification.
+0x09 ERROR_INVALID_SECURITY_MODE The given security mode is not a valid Bluetooth security mode.
+0x0a ERROR_LINKKEY_DOES_NOT_EXISTS No link key exists for the given Bluetooth address
+0x0b ERROR_CONNECTION_FAILED The connection setup failed due to unknown reasons.
+0x0c ERROR_TRUNCATED_ANSWER The returned number of services is too large to be handled by the LMX9838. The answer is truncated
+0x0d ERROR_RESULT_TOO_LARGE The SDP result from the remote device is too large to be handled by the LMX9838 due to ram limitations
+0x0e ERROR_NOT_POSSIBLE_TO_ENTER_TESTMODE It is currently not possible to enter the selected test mode.
+0x0f ERROR_ILLEGAL_TESTMODE The given test mode is not a valid test mode according to the specification
+0x10 ERROR_RESET_TO_NSC_BDADDRESS The LMX9838 will change the Bluetooth address to the NSC address.
+0x11 ERROR_UART_SPEED_OUT_OF_RANGE The selected UART speed value is not valid according to the specification.
+0x12 ERROR_INVALID_PORT The given port value is larger than the maximum specified value.
+0x13 ERROR_ILLEGAL_STATE_VALUE The given state value is not a valid state according to the specification
+0x14 ERROR_IDENTIFIER_OUT_OF_RANGE The given identifier is larger than the maximum specified value.
+0x15 ERROR_RECORD_ALREADY_IN_SELECTED_STATE The service record is already enabled/disabled.
+0x16 ERROR_INVALID_AUTHENTICATION_VALUE The given authentication value is not a valid value according to the specification.
+0x17 ERROR_INVALID_ENCRYPTION_VALUE The given encryption value is not a valid value according to the specification.
+0x18 ERROR_MAXIMUM_NO_OF_SERVICE_RECORDS_REACHED The maximum number of service records, which the LMX9838 is able to store, is reached.
+0x19 ERROR_WRITING_TO_NVS An error occurred while writing to flash. The service record may not be stored.
+0x1a ERROR_INVALID_ROLE The given role value is not a valid value according to the specification.
+0x1b ERROR_LIMIT Limits exceeded (Parameter(s) violates limits).
+0x1c ERROR_UNEXPECTED Unexpected at this moment.
+0x1d ERROR_UNABLE_TO_SEND Could not send at this moment, no reason specified.
+0x1e ERROR_CURRENTLY_NO_BUFFER Currently no room in buffer, try again later.
+0x1f ERROR_NO_CONNECTION Trying to use an inexistent connection.
+0x20 ERROR_SPP_INVALID_PORT Port number out of range.
+0x21 ERROR_SPP_PORT_NOT_OPEN Port is closed.
+0x22 ERROR_SPP_PORT_BUSY Connection establishment on a PORT that has a connection.
+0x23 ERROR_SPP_MULTIPLE_CONNECTIONS Transparent mode attempted while more than 1 connection active.
+0x24 ERROR_SPP_MULTIPLE_TRANSPARENT Trying to store a default connection when a transparent default connection is already stored, or trying to store a transparent default connection when another connection is already stored.
+0x25 ERROR_SPP_DEFAULT_CONNECTION_NOT_STORED Trying to connection to a default connection, which is not stored.
+0x26 ERROR_SPP_AUTOMATIC_CONNECTIO NS_PROGRESSING Trying to start connecting to default connections when default connection establishment is already progressing.
+0x27 ERROR_UNSPECIFIED_ERROR Other error.
+0x28 ERROR_IDENTIFIER_NOT_IN_USE Trying to enable a SDP record which is not stored. Wrong identifier.
+0x29 ERROR_INVALID_SUPPORTED_FAXCLASS_VALUE Faxclass parameter must be 0 or 1.
+0x2a ERROR_TOO_MANY_SUPPORTED_FORMATS The given number of supported formats excesses the specified maximum number of supported formats.
+0x2b ERROR_TOO_MANY_DATASTORES The given number of data stores excess the specified maximum number of data stores.
+0x2C ERROR_ATTEMPT_FAILED Attempt to change low power mode failed
+0x2D ERROR_ILLEGAL_LINK_POLICY The given link policy value is out of range
+0x2E ERROR_PINCODE_TOO_LONG The pin code length field is too large.
+0x2F ERROR_PARITY_BIT_OUT_OF_RANGE The given parity check is out of range
+0x30 ERROR_STOP_BITS_OUT_OF_RANGE The given number of stop bits is out of range
+0x31 ERROR_ILLEGAL_LINK_TIMEOUT The given link timeout value is out of range
+0x32 ERROR_COMMAND_DISALLOWED The command is not allowed.
+0x33 ERROR_ILLEGAL_AUDIO_CODEC_TYPE The given Audio CODEC type is out of range.
+0x34 ERROR_ILLEGAL_AUDIO_AIR_FORMAT The given Audio Air format is out of range.
+0x35 ERROR_SDP_RECORD_TOO_LONG The SDP record is too long.
+0x36 ERROR_SDP_FAILED_TO_CREATE_RECORD The SDP server failed to create the SDP record.
+0x37 ERROR_SET_VOLUME_FAILED The selected codec does not support volume control.
+0x38 ERROR_ILLEGAL_PACKET_TYPE The packet type specified in the request is not valid.
+0x39 ERROR_INVALID_CODEC_SETTING The codec (slave) settings is invalid.

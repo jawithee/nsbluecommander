@@ -1,0 +1,58 @@
+"No error.
+"The number of bytes in the request does not correspond to the protocol specification
+"The given duration value is not valid according to the specification.
+"The selected mode is not valid according to the specification
+"A timeout occurred.
+"An unknown error occurred.
+"The number of bytes in the name string is longer than the maximum specified value.
+"The given discoverability parameter does not contain a valid value according to the specification.
+"The given connectability parameter does not contain a valid value according to the specification.
+"The given security mode is not a valid Bluetooth security mode.
+"No link key exists for the given Bluetooth address
+"The connection setup failed due to unknown reasons.
+"The returned number of services is too large to be handled by the LMX9838. The answer is truncated
+"The SDP result from the remote device is too large to be handled by the LMX9838 due to ram limitations
+"It is currently not possible to enter the selected test mode.
+"The given test mode is not a valid test mode according to the specification
+"The LMX9838 will change the Bluetooth address to the NSC address.
+"The selected UART speed value is not valid according to the specification.
+"The given port value is larger than the maximum specified value.
+"The given state value is not a valid state according to the specification
+"The given identifier is larger than the maximum specified value.
+"The service record is already enabled/disabled.
+"The given authentication value is not a valid value according to the specification.
+"The given encryption value is not a valid value according to the specification.
+"The maximum number of service records, which the LMX9838 is able to store, is reached.
+"An error occurred while writing to flash. The service record may not be stored.
+"The given role value is not a valid value according to the specification.
+"Limits exceeded (Parameter(s) violates limits).
+"Unexpected at this moment.
+"Could not send at this moment, no reason specified.
+"Currently no room in buffer, try again later.
+"Trying to use an inexistent connection.
+"Port number out of range.
+"Port is closed.
+"Connection establishment on a PORT that has a connection.
+"Transparent mode attempted while more than 1 connection active.
+"Trying to store a default connection when a transparent default connection is already stored, or trying to store a transparent default connection when another connection is already stored.
+"Trying to connection to a default connection, which is not stored.
+"NS_PROGRESSING Trying to start connecting to default connections when default connection establishment is already progressing.
+"Other error.
+"Trying to enable a SDP record which is not stored. Wrong identifier.
+"Faxclass parameter must be 0 or 1.
+"The given number of supported formats excesses the specified maximum number of supported formats.
+"The given number of data stores excess the specified maximum number of data stores.
+"Attempt to change low power mode failed
+"The given link policy value is out of range
+"The pin code length field is too large.
+"The given parity check is out of range
+"The given number of stop bits is out of range
+"The given link timeout value is out of range
+"The command is not allowed.
+"The given Audio CODEC type is out of range.
+"The given Audio Air format is out of range.
+"The SDP record is too long.
+"The SDP server failed to create the SDP record.
+"The selected codec does not support volume control.
+"The packet type specified in the request is not valid.
+"The codec (slave) settings is invalid.
