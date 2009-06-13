@@ -1,9 +1,9 @@
 CFLAGS  =   -g -Wall
 CC      =   gcc
-LIBS    =   -lncurses -lpopt
+LIBS    =  -lpopt
 INCLUDES = 
-OBJS = nsbluecommands.o  nsbluemenu.o  nsblueoptions.o nsbluecommander.o
-SRCS = nsbluecommands.c  nsbluemenu.c  nsblueoptions.c nsbluecommander.c
+OBJS = nsblueapi.o nsbluecommander.o
+SRCS = nsblueapi.c nsbluecommander.c
 
 all: nsbluecommander
 
@@ -18,7 +18,7 @@ depend:
 	makedepend ${SRCS}
 
 clean:
-	rm *.o core *~
+	rm *.o *.core *~
 
 # DO NOT DELETE
 
