@@ -1,6 +1,8 @@
 #ifndef NSBLUECOMMANDS__H_
 #define NSBLUECOMMANDS__H_
 #include <stdint.h>
+#include <sys/time.h>
+#include "nsblueapi.h"
 
 #define BLUEMAXDATALEN 333
 
@@ -103,7 +105,7 @@
 #define DELETE_SDP_RECORDS 0x2A
 #define STORE_SDP_RECORD 0x31
 #define RESET 0x26
-#define LMX9838 _READY 0x25
+#define DEVICE_READY 0x25
 #define TEST_MODE 0x24
 #define WRITE_ROM_PATCH 0x47
 #define READ_RSSI 0x20
@@ -185,14 +187,7 @@
 #define ERROR_ILLEGAL_PACKET_TYPE 0x38
 #define ERROR_INVALID_CODEC_SETTING 0x39
 
-int sendPacket(uint8_t type, uint8_t opcode, uint8_t * data, int dataLen);
-int getPacket(uint8_t * type, uint8_t * opcode, uint8_t * data, int * dataLen);
-
-int printNSBTConfirmError(uint8_t error);
-
-void gapReadLocalName(void);
-void gapWriteLocalName(void);
-void gapGetSecurityMode(void);
-
+RETURN_VALUE_T sendPacket(int nsb_serfd, uint8_t type, uint8_t opcode, uint8_t * data, uint16_t dataLen);
+RETURN_VALUE_T getPacket(int nsb_serfd, uint8_t * type, uint8_t * opcode, uint8_t * data, uint16_t * dataLen);
 
 #endif
