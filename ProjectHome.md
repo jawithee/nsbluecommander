@@ -1,0 +1,1 @@
+This program is a Linux implementation of the NS Simply Blue Commander for configuring their Bluetooth devices. LMX9838 Specifically.
